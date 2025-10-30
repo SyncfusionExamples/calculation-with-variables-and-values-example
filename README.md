@@ -4,7 +4,7 @@
 
 This example will explain how to store the values with variable name and perform the calculation using expressions and built-in functions.
 
-The below code explain how to store the values with variable name using CalcQuickBase.
+The below code explain how to store the values with variable name using [CalcQuickBase](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Calculate.CalcQuickBase.html). To hold a string which is a formula or be treated as a formula, then begin that string with [FormulaCharacter](https://help.syncfusion.com/cr/windowsforms/Syncfusion.Calculate.CalcQuickBase.html#Syncfusion_Calculate_CalcQuickBase_FormulaCharacter) of **CalcQuickBase**.
 
 ```c#
 CalcQuickBase calcQuick = new CalcQuickBase();
@@ -24,4 +24,4 @@ calcQuick["result1"] = "=SUM([A],[B])";
 ```
 The output of expressions and functions calculation,
 
-![](https://blog.syncfusion.com/wp-content/uploads/2018/11/Output-for-CalcQuickBase.png)
+![Output of Formula Calculation using CalcQuickBase](OutputOfExpressionsAndFunctions.png)
