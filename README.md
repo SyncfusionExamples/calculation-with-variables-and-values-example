@@ -24,4 +24,4 @@ calcQuick["result1"] = "=SUM([A],[B])";
 ```
 The output of expressions and functions calculation,
 
-![Formula Calculation using CalcQuickBase](https://blog.syncfusion.com/wp-content/uploads/2018/11/Output-for-CalcQuickBase.png)
+![Output of Formula Calculation using CalcQuickBase](OutputOfExpressionsAndFunctions.png)
